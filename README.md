@@ -58,7 +58,7 @@ All three commands expect the below sample JSON configuration file in `./rds/con
 
 ```
 {
-    "GR": {
+    "CL1": {
         "sourceUser": "root",
         "sourcePassword": "howaboutthispass",
         "sourceHost":"dev-migrate-source-instance-1.cmnsml8q1eeo.eu-west-1.rds.amazonaws.com",
@@ -71,7 +71,7 @@ All three commands expect the below sample JSON configuration file in `./rds/con
         "targetPassword":"killerpass",
         "targetHost":"dev-migrate-target-instance-1.cmnsml8q1eeo.eu-west-1.rds.amazonaws.com"
     },
-    "CO": {
+    "CL2": {
         "sourceUser": "admin",
         "sourcePassword": "MytestPassword!",
         "sourceHost":"dev-migrate-source.cluster-cw4i1mpvfsgk.us-west-1.rds.amazonaws.com",
