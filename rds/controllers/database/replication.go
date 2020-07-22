@@ -3,9 +3,9 @@ package database
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	log "github.com/sirupsen/logrus"
-	"github.com/ArchieSpinos/migrate_rds_dbs_multi/rds/dbs"
-	"github.com/ArchieSpinos/migrate_rds_dbs_multi/rds/persist"
-	"github.com/ArchieSpinos/migrate_rds_dbs_multi/rds/services"
+	"github.com/ArchieSpinos/rgctl/rds/dbs"
+	"github.com/ArchieSpinos/rgctl/rds/persist"
+	"github.com/ArchieSpinos/rgctl/rds/services"
 )
 
 func SetupReplication(a dbs.Access) {

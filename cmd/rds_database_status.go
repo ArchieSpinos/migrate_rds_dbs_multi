@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/ArchieSpinos/migrate_rds_dbs_multi/rds/controllers/database"
-	"github.com/ArchieSpinos/migrate_rds_dbs_multi/rds/dbs"
+	"github.com/ArchieSpinos/rgctl/rds/controllers/database"
+	"github.com/ArchieSpinos/rgctl/rds/dbs"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

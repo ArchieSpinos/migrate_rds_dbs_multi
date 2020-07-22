@@ -11,8 +11,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/rds"
 	"github.com/aws/aws-sdk-go/service/rds/rdsiface"
-	"github.com/ArchieSpinos/migrate_rds_dbs_multi/rds/awsclient"
-	"github.com/ArchieSpinos/migrate_rds_dbs_multi/rds/dbs"
+	"github.com/ArchieSpinos/rgctl/rds/awsclient"
+	"github.com/ArchieSpinos/rgctl/rds/dbs"
 )
 
 var (

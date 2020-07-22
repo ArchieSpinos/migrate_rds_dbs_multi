@@ -6,8 +6,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 
 	"github.com/aws/aws-sdk-go/service/rds"
-	"github.com/ArchieSpinos/migrate_rds_dbs_multi/rds/awsclient"
-	"github.com/ArchieSpinos/migrate_rds_dbs_multi/rds/dbs"
+	"github.com/ArchieSpinos/rgctl/rds/awsclient"
+	"github.com/ArchieSpinos/rgctl/rds/dbs"
 )
 
 // SlicePointerToSlice accepts a pointer to slice and returns a slice

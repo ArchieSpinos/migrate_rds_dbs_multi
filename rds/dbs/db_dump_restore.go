@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"os/exec"
 
-	"github.com/ArchieSpinos/migrate_rds_dbs_multi/rds/persist"
+	"github.com/ArchieSpinos/rgctl/rds/persist"
 )
 
 func MysqlDumpExec(sourceUser string, sourcePassword string, restoredInstanceDNS string, serviceDBs []string, pathGlobal string) error {

@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/ArchieSpinos/migrate_rds_dbs_multi/rds/dbs"
+	"github.com/ArchieSpinos/rgctl/rds/dbs"
 )
 
 // CheckSlaveStatus checks that slace in mysql transactional replication

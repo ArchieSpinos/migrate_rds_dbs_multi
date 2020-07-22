@@ -1,6 +1,6 @@
 package dbs
 
-import "github.com/ArchieSpinos/migrate_rds_dbs_multi/rds/awsclient"
+import "github.com/ArchieSpinos/rgctl/rds/awsclient"
 
 type DbConnection struct {
 	Name     string `json:"db_name"`

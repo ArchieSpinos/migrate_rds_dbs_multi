@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/ArchieSpinos/migrate_rds_dbs_multi/cmd"
+import "github.com/ArchieSpinos/rgctl/cmd"
 
 func main() {
 	cmd.Execute()

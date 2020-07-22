@@ -4,8 +4,8 @@ import (
 	"strings"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/ArchieSpinos/migrate_rds_dbs_multi/rds/dbs"
-	"github.com/ArchieSpinos/migrate_rds_dbs_multi/rds/services"
+	"github.com/ArchieSpinos/rgctl/rds/dbs"
+	"github.com/ArchieSpinos/rgctl/rds/services"
 )
 
 func SecondsBehindMaster(t dbs.TargetMySQL) {

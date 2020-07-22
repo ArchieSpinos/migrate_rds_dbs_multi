@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ArchieSpinos/migrate_rds_dbs_multi/rds/controllers/database"
+	"github.com/ArchieSpinos/rgctl/rds/controllers/database"
 
-	"github.com/ArchieSpinos/migrate_rds_dbs_multi/rds/awsclient"
-	"github.com/ArchieSpinos/migrate_rds_dbs_multi/rds/dbs"
+	"github.com/ArchieSpinos/rgctl/rds/awsclient"
+	"github.com/ArchieSpinos/rgctl/rds/dbs"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
