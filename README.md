@@ -1,4 +1,4 @@
-# devops-migrate-mysql-db-multi
+# rgctl
 This tool perfoms the steps of [AWS Replication between Aurora clusters documentation](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Replication.MySQL.html) but for multiple Aurora clusters simultaneously.
 
 Skim through the guide first to understand the process and actors involved.
