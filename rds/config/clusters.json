@@ -1,0 +1,28 @@
+{
+    "GR": {
+        "sourceUser": "root",
+        "sourcePassword": "howaboutthispass",
+        "sourceHost":"dev-migrate-source-instance-1.cmnsml8q1eeo.eu-west-1.rds.amazonaws.com",
+        "sourceClusterID":"dev-migrate-source",
+        "sourceDBName":"source2",
+        "awsRegion":"eu-west-1",
+        "awsProfile":"a.spinos",
+        "replicaUserPass":"Edeur2NBB2sQLdq4JdqF5fTdFTw98S",
+        "targetUser":"root",
+        "targetPassword":"killerpass",
+        "targetHost":"dev-migrate-target-instance-1.cmnsml8q1eeo.eu-west-1.rds.amazonaws.com"
+    },
+    "CO": {
+        "sourceUser": "admin",
+        "sourcePassword": "MytestPassword!",
+        "sourceHost":"dev-migrate-source.cluster-cw4i1mpvfsgk.us-west-1.rds.amazonaws.com",
+        "sourceClusterID":"dev-migrate-source",
+        "sourceDBName":"sourceDB1",
+        "awsRegion":"us-west-1",
+        "awsProfile":"a.spinos",
+        "replicaUserPass":"EdeurBfdsHJG8qF5fTdFTw98S",
+        "targetUser":"administrator",
+        "targetPassword":"AnotherAwesomePassword",
+        "targetHost":"dev-migrate-target-instance-1.cw4i1mpvfsgk.us-west-1.rds.amazonaws.com"
+    }
+}
